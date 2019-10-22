@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<title>		
+	RECILAR
+		</title>
+	<link rel="icon" href="recilarlogo.png">
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="css1.css" media="all">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+	<meta charset="utf-8">
+	<meta name="description" content="Recilar">
+    <meta name="keywords" content="recilar,Recilar">
+    <meta name="author" content="Leonardo Vargas">
+</head>
+				<style>
+
+body {
+}
+
+  .mySlides {display:none;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: SeaGreen;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+  text-align: center;
+}
+
+.active {
+  background-color: DarkGreen;
+}
+
+
+
+#l10 {
+  background-color: DarkGreen;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#l10:hover {
+  background-color:Green;
+}
+
+.center {
+  text-align: center;
+</style>
+
+
+<body> 
+	<header>	</header><a href="pageinicial.html"
+	<p align ="left"><img id="tt1"  src="recilar.png"></a> </p>
+	<div class="center"><nav>
+<ul>
+  
+  <li><a id="in2" href="pageempresa.html"><i class="fas fa-user-cog"></i> Empresa </a></li>
+  <li><a id="in3" href="pageproduto.html"><i class="fas fa-chess-king"></i> Produto</a></li>
+  <li><a id="in4" href="pageatendimento.html"><i class="fas fa-laptop"></i> Contato </a></li>
+</ul>	
+	</nav>
+	</div>
+	</header>
+	<br></br>
+	
+	
+	<div class="w3-content w3-display-container">
+	<a href="pageempresa.html">
+   <img class="mySlides"src="AEMPRESA.png" style="width:1000px">
+</a>
+   <a href="pageproduto.html">
+   <img class="mySlides" src="NOSSOSPRODUTOS.png" style="width:1000px">
+</a>	
+ 
+  <button class="w3-button w3-tiny w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-tiny w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  
+</div>
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 6000); // 6 segundos
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+	
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+
+
+
+
+	
+	
+	
+	<p align="center"><a id="pes1"> AJUDE-NOS A MELHORAR
+		</a><br></br>
+			<i class="fas fa-angle-double-down" style="font-size:50px;"></i></p>
+			
+			
+	<p align ="center"><a id="l10" href ="https://docs.google.com/forms/d/16ScRLrDK4x0goJ8mzFv9ObtPqwa_8l2HStzfBWPzZh4/viewform?edit_requested=true"> RESPONDA A PESQUISA</a></P>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer> 
+<hr>
+
+ <a href="https://twitter.com/"><img alt='Tweet this' title="Siga no Twitter" class='twitter' src='twitterlogo.png'/></a>
+
+ <a href="https://www.facebook.com/"><img alt='Facebook' title="Siga no Facebook" class='facebook' src='facebooklogo.png'/></a>
+
+ <a href="https://br.linkedin.com/"><img alt='Linkedin' title="Siga no Linkedin" class='linkedin' src='inlogo.png'/></a>
+
+	<br></br>
+	<br></br>
+		<br></br>
+<br><p class="localizacao"> Localização </p>
+<br></br>
+<br><p> <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d866.2224611864162!2d-51.1663311206222!3d-29.72294993823799!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1565930210564!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:2" allowfullscreen></iframe> </p>
+
+
+<br></br>
+<br><b class="endereco"><p>Av. Alberto Bins, 320</p>
+<br><p>Centro - Porto Alegre / RS</p>
+<br><p>CEP: 90030-141</p> </b>
+</div>
+
+</footer>	
+</body>
+</html>

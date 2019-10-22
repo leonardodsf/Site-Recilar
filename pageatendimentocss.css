@@ -1,0 +1,305 @@
+body {
+	font: 18px/30px Hélvetica, serif;
+	background-color:#FFFFFF;
+	background-size:100%
+}
+/* deixa cor de fundo na pagina */
+
+header {
+	text-align:left;
+	color:#ABF;
+}
+#tt1{
+	width:410px;
+    height:160px;  
+	}
+
+main{
+	margin:60px;
+	padding:10px;
+	text-align:justify;
+	font-style: oblique;
+}
+
+section {
+	position:relative;
+	float:center;
+}
+article {
+	position:relative;
+	float:center;
+	text-align:justify;
+	font-style: oblique;
+}
+
+footer {
+	position:relative;
+
+	text-align:justify;
+	font-style: oblique;
+}
+.logo {
+
+	width:410px;
+	height:160px;
+}
+
+
+.titulo {
+	color:#000000;
+	font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: SeaGreen;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+  text-align: center;
+}
+
+.active {
+  background-color: DarkGreen;
+}
+#in2{
+	position:absolute;
+	left:740px;
+	top:0,5cm;	
+}
+#in3{
+	position:absolute;
+	left:860px;
+	top:0,5cm;	
+}
+#in4{
+	position:relative;
+	left:970px;
+	top:0,5cm;	
+}
+
+
+
+#l10 {
+  background-color: DarkGreen;
+  color: white; padding: 15px 25px; text-align: center; text-decoration: none; display: inline-block;
+}
+#l10 {
+  background-color: SeaGreen;
+}
+
+/* Menu Social Bookmark
+------------------------------- */
+.bookmarkbox {margin-top:5px;
+padding:2px 2px 2px 2px;
+}
+
+.bookmarkbox h3{
+padding-bottom:7px;
+font-size:50%; /*Tamanho da fonte do título*/
+padding-top:5px;
+text-transform:none;
+
+}
+
+.rsociais ul {
+display:inline;
+margin:0px !important;
+padding:0px;
+}
+.rsociais li {background:transparent none repeat scroll 0%;
+display:inline;
+list-style-type:none;
+margin:0px;
+padding:2px;
+}
+
+.rsociais img {
+border:0px none;
+margin:0px;
+padding:0px;
+background:transparent;
+}
+.facebook {opacity:1;
+width:40px;
+height:38px;
+left:1010px;
+bottom:0,2cm;
+position:absolute;
+}
+.facebook:hover {opacity:0.6;filter:alpha(opacity=60);
+}
+
+.twitter {
+opacity:1;
+width:40px;
+height:38px;
+left:970px;
+bottom:0,2cm;
+position:absolute;
+
+
+}
+.twitter:hover {opacity:0.6;filter:alpha(opacity=60);
+}
+
+.sociais {
+	color:#000000;
+	font-weight: bold;
+	position:absolute;
+	left:980px;
+	bottom: 0,7cm;
+}
+.linkedin {opacity:1;
+width:40px;
+height:38px;
+left:1050px;
+bottom:0,2cm;
+position:absolute;
+
+}
+.linkedin:hover {opacity:0.6;filter:alpha(opacity=60);
+}
+.localizacao {
+	font: 17px/30px Arial, serif;
+	display:block;
+	color:#000000;
+	font-weight: bold;
+	position:absolute;
+	
+	left:980px;
+	bottom: 0,7cm;
+}
+#comp1{
+	position:absolute;
+	left:980px;
+	bottom: 0,7cm;
+}
+		
+
+.endereco {
+	font: 17px/30px Arial, serif;
+	display:block;
+	color:#000000;
+	position:absolute;
+	left:950px;
+	bottom:0,2cm;
+    float:center;	
+}
+.mapa {
+	
+	display:block;
+	position:relative;
+	float:center;
+	left:840px;
+	bottom: 0,1cm;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0;
+	
+    
+	
+	
+}
+
+body, input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #666; display: block;
+}
+
+fieldset.grupo .campo {
+   
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC; box-shadow: 2px 2px 2px rgba(0,0,0,0.2); display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFC;
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block; margin-right: 1em;
+}
+
+.botao {
+		font-size: 1.5em;
+		background: #006400;
+		border: 0;
+		margin-bottom: 1em;
+		color: #FFF;
+		padding: 0.2em 0.6em;
+		box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+		}
+
+.botao:hover {
+	background: #008000;
+	box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+	text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+	cursor: pointer;
+}
+
+.envie {
+	color:#000000;
+	font-weight: bold;
+	position:absolute;
+	left:850px;
+	
+}

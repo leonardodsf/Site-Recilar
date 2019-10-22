@@ -1,0 +1,258 @@
+body {
+	font: 18px/30px Hélvetica, serif;
+	background-color:#FFFFFF;
+	background-size:100%
+}
+/* deixa cor de fundo na pagina */
+
+header {
+	text-align:left;
+	color:#ABF;
+}
+#tt1{
+	width:410px;
+    height:160px;   
+}
+#in2{
+	position:absolute;
+	left:740px;
+	top:0,5cm;	
+}
+#in3{
+	position:absolute;
+	left:860px;
+	top:0,5cm;	
+}
+#in4{
+	position:relative;
+	left:970px;
+	top:0,5cm;	
+}
+
+main{
+	margin:70px;
+	top:50px;
+	left:20px;
+	right:50px;
+	padding:10px;
+	text-align:justify;
+	font-style: oblique;
+	color:#ABE;
+	
+}
+
+/* margin coloca margem no site ou na sua tag */
+section {
+	text-align:justify;
+	color:#000000;
+	position:relative;
+	float:center;
+
+}
+/* faz borda em volta do texto */
+
+article{
+	text-align:justify;
+	color:#000000;
+	position:relative;
+	float:center;
+	
+}
+footer {
+	position:relative;
+	font-style: oblique;
+	text-align:justify;
+	
+}
+/* top, left, bottom deixa sempre o layout fixo */
+/* hover deixa de outra cor quando passa o mouse em cima, font size no hover deixa a fonte maior quando passa o mouse */
+/* backgroundcolor muda a cor do hover quando passa o mouse em cima */
+
+.logo {
+	left:0px;
+	top:20px;
+	width:410px;
+	height:160px;
+}
+
+
+.titulo {
+	color:#000000;
+	font-weight: bold;
+	text-align:left;
+	position:relative;
+	float:center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:SeaGreen;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: DarkGreen;
+}
+
+
+
+#l10 {
+  background-color: DarkGreen;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#l10 {
+  background-color: SeaGreen;
+}
+
+.titulomissao {
+	font-weight: bold;
+	float:center;
+}
+.titulovisao {
+	font-weight: bold;
+	float:center;
+}
+.titulovalores {
+	font-weight: bold;
+	float:center;
+}
+
+/* Menu Social Bookmark
+------------------------------- */
+.bookmarkbox {margin-top:5px;
+padding:2px 2px 2px 2px;
+}
+
+.bookmarkbox h3{
+padding-bottom:7px;
+font-size:50%; /*Tamanho da fonte do título*/
+padding-top:5px;
+text-transform:none;
+
+}
+
+.rsociais ul {
+display:inline;
+margin:0px !important;
+padding:0px;
+}
+.rsociais li {background:transparent none repeat scroll 0%;
+display:inline;
+list-style-type:none;
+margin:0px;
+padding:2px;
+}
+
+.rsociais img {
+border:0px none;
+margin:0px;
+padding:0px;
+background:transparent;
+}
+.facebook {opacity:1;
+width:40px;
+height:38px;
+left:1010px;
+bottom:0,2cm;
+position:absolute;
+}
+.facebook:hover {opacity:0.6;filter:alpha(opacity=60);
+}
+
+.twitter {
+opacity:1;
+width:40px;
+height:38px;
+left:970px;
+bottom:0,2cm;
+position:absolute;
+
+
+}
+.twitter:hover {opacity:0.6;filter:alpha(opacity=60);
+}
+
+.sociais {
+	color:#000000;
+	font-weight: bold;
+	position:absolute;
+	left:980px;
+	bottom: 0,7cm;
+}
+.linkedin {opacity:1;
+width:40px;
+height:38px;
+left:1050px;
+bottom:0,2cm;
+position:absolute;
+
+}
+.linkedin:hover {opacity:0.6;filter:alpha(opacity=60);
+}
+.localizacao {
+	font: 17px/30px Arial, serif;
+	display:block;
+	color:#000000;
+	font-weight: bold;
+	position:absolute;	
+	left:980px;
+	bottom: 0,7cm;
+}
+#comp1{
+	position:absolute;
+	left:980px;
+	bottom: 0,7cm;
+}
+		
+
+.endereco {
+	font: 17px/30px Arial, serif;
+	display:block;
+	color:#000000;
+	position:absolute;
+	left:950px;
+	bottom:0,2cm;
+    float:center;	
+}
+.mapa {
+	
+	display:block;
+	position:relative;
+	float:center;
+	left:840px;
+	bottom: 0,1cm;
+}
+
+.moldura {
+	top:30px;
+	margin:2px;
+	left:0px;
+	position: relative;
+	float:left;
+	width:440px;
+	height:600px ;
+}
+.preço {
+	margin-left:443px;
+}

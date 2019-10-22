@@ -1,0 +1,158 @@
+body{
+	
+}
+
+#tt1{
+	width:410px;
+    height:160px;   
+}
+
+#imagem10{
+	width:610px;
+    height:560px;
+}	
+
+
+#in2{
+	position:absolute;
+	left:740px;
+	top:0,5cm;	
+}
+#in3{
+	position:absolute;
+	left:860px;
+	top:0,5cm;	
+}
+#in4{
+	position:relative;
+	left:970px;
+	top:0,5cm;	
+}
+
+.w3-display-right {
+	opacity:5;
+	left:960px;
+}
+
+/* Menu Social Bookmark
+------------------------------- */
+.bookmarkbox {margin-top:5px;
+padding:2px 2px 2px 2px;
+}
+
+.bookmarkbox h3{
+padding-bottom:7px;
+font-size:50%; /*Tamanho da fonte do título*/
+padding-top:5px;
+text-transform:none;
+
+}
+
+.rsociais ul {
+display:inline;
+margin:0px !important;
+padding:0px;
+}
+.rsociais li {background:transparent none repeat scroll 0%;
+display:inline;
+list-style-type:none;
+margin:0px;
+padding:2px;
+}
+
+.rsociais img {
+border:0px none;
+margin:0px;
+padding:0px;
+background:transparent;
+}
+.facebook {opacity:1;
+width:40px;
+height:38px;
+left:940px;
+bottom:0,2cm;
+position:absolute;
+}
+.facebook:hover {opacity:0.6;filter:alpha(opacity=60);
+}
+
+.twitter {
+opacity:1;
+width:40px;
+height:38px;
+left:900px;
+bottom:0,2cm;
+position:absolute;
+
+
+}
+.twitter:hover {opacity:0.6;filter:alpha(opacity=60);
+}
+
+.sociais {
+	color:#000000;
+	font-weight: bold;
+	position:absolute;
+	left:940px;
+	bottom: 0,7cm;
+}
+.linkedin {opacity:1;
+width:40px;
+height:38px;
+left:980px;
+bottom:0,2cm;
+position:absolute;
+
+}
+.linkedin:hover {opacity:0.6;filter:alpha(opacity=60);
+}
+.localizacao {
+	font: 17px/30px Arial, serif;
+	display:block;
+	color:#000000;
+	font-weight: bold;
+	position:absolute;
+	
+	left:905px;
+	bottom: 0,7cm;
+}
+#comp1{
+	position:absolute;
+	left:900px;
+	bottom: 0,7cm;
+}
+		
+
+.endereco {
+	font: 17px/30px Arial, serif;
+	display:block;
+	color:#000000;
+	position:absolute;
+	left:870px;
+	bottom:0,2cm;
+    float:center;	
+}
+.mapa {
+	
+	display:block;
+	position:relative;
+	float:center;
+	left:780px;
+	bottom: 0,1cm;
+}
+#pes1{
+	border:5px solid #006400;	
+	border-radius:30px;
+	background-color:#98FB98;
+	margin:5px;
+	padding:5px;
+	text-align: justify;
+	width:210px;
+    height:100px;
+	
+}
+
+	
+
+
+	
